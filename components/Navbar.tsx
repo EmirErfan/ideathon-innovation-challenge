@@ -52,13 +52,10 @@ const Navbar = () => {
       {mobileMenuOpen && (
         <div className="md:hidden bg-black/95 backdrop-blur-sm">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <Link href="#about" className="block px-3 py-2 text-white hover:text-blue-400" onClick={() => setMobileMenuOpen(false)}>About Us</Link>
-            <Link href="#overview" className="block px-3 py-2 text-white hover:text-blue-400" onClick={() => setMobileMenuOpen(false)}>Overview</Link>
-            <Link href="#timeline" className="block px-3 py-2 text-white hover:text-blue-400" onClick={() => setMobileMenuOpen(false)}>Timeline</Link>
-            <Link href="#judges" className="block px-3 py-2 text-white hover:text-blue-400" onClick={() => setMobileMenuOpen(false)}>Judges</Link>
-            <Link href="#mentors" className="block px-3 py-2 text-white hover:text-blue-400" onClick={() => setMobileMenuOpen(false)}>Mentors</Link>
-            <Link href="#faq" className="block px-3 py-2 text-white hover:text-blue-400" onClick={() => setMobileMenuOpen(false)}>FAQ</Link>
-            <Link href="/login" className="block px-3 py-2 text-white hover:text-blue-400" onClick={() => setMobileMenuOpen(false)}>Login</Link>
+            <Link href="#intro" className="block px-3 py-2 text-white hover:text-blue-400" onClick={() => setMobileMenuOpen(false)}>Intro</Link>
+            <Link href="#intro2" className="block px-3 py-2 text-white hover:text-blue-400" onClick={() => setMobileMenuOpen(false)}>About Ideathon</Link>
+            <Link href="#objectives" className="block px-3 py-2 text-white hover:text-blue-400" onClick={() => setMobileMenuOpen(false)}>Objektif</Link>
+            <Link href="#overview" className="block px-3 py-2 text-white hover:text-blue-400" onClick={() => setMobileMenuOpen(false)}>Info</Link>
           </div>
         </div>
       )}
